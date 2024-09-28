@@ -16,6 +16,8 @@ import {
   shoe5,
   shoe6,
   shoe7,
+  shoe8,
+  shoe9,
   thumbnailShoe1,
   thumbnailShoe2,
   thumbnailShoe3,
@@ -52,23 +54,33 @@ export const statistics = [
 export const products = [
   {
     imgURL: shoe4,
-    name: "Nike Air Jordan-01",
-    price: "$200.20",
+    name: "Nike Air Jordan",
+    price: "$199.19",
   },
   {
     imgURL: shoe5,
-    name: "Nike Air Jordan-10",
-    price: "$210.20",
+    name: "Nike Air Jordan ",
+    price: "$149.99",
   },
   {
     imgURL: shoe6,
-    name: "Nike Air Jordan-100",
-    price: "$220.20",
+    name: "Nike Air Jordan",
+    price: "$179.99",
   },
   {
     imgURL: shoe7,
-    name: "Nike Air Jordan-001",
-    price: "$230.20",
+    name: "Nike Air Jordan",
+    price: "$210.99",
+  },
+  {
+    imgURL: shoe8,
+    name: "Nike Air Jordan",
+    price: "$210.99",
+  },
+  {
+    imgURL: shoe9,
+    name: "Nike Air Jordan",
+    price: "$210.99",
   },
 ];
 
