@@ -16,6 +16,7 @@ import shoe6 from "./shoe6.png";
 import shoe7 from "./shoe7.png";
 import shoe8 from "./shoe8.png";
 import shoe9 from "./shoe9.png";
+import mainShoe from "./main.png";
 
 import thumbnailBackground from "./thumbnail-background.svg";
 import thumbnailShoe1 from "./thumbnail-shoe1.svg";
@@ -37,6 +38,7 @@ export {
   shoe7,
   shoe8,
   shoe9,
+  mainShoe,
   thumbnailBackground,
   thumbnailShoe1,
   thumbnailShoe2,

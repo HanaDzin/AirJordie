@@ -75,12 +75,12 @@ export const products = [
   {
     imgURL: shoe8,
     name: "Nike Air Jordan",
-    price: "$210.99",
+    price: "$219.99",
   },
   {
     imgURL: shoe9,
     name: "Nike Air Jordan",
-    price: "$210.99",
+    price: "$110.99",
   },
 ];
 
