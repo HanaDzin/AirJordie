@@ -6,7 +6,7 @@ import { arrowRight } from "../assets/icons";
 const SpecialOffer = () => {
   return (
     <section className="flex justify-wrap items-center max-xl:flex-col-reverse gap-10 max-container">
-      <div className="flex-1">
+      <div className="flex-1" data-aos="flip-right">
         <img
           src={offer}
           width={773}
@@ -14,7 +14,7 @@ const SpecialOffer = () => {
           className="object-contain w-full"
         />
       </div>
-      <div className="flex flex-1 flex-col">
+      <div className="flex flex-1 flex-col" data-aos="fade-up">
         <h2 className="font-palanquin text-4xl capitalize lg:max-w-lg font-bold">
           <span className="text-burgundy-red">Special </span>
           Offer

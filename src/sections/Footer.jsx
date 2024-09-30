@@ -5,7 +5,10 @@ import { copyrightSign } from "../assets/icons";
 const Footer = () => {
   return (
     <footer className="max-container">
-      <div className="flex justify-between items-start gap-20 flex-wrap max-lg:flex-col">
+      <div
+        className="flex justify-between items-start gap-20 flex-wrap max-lg:flex-col"
+        data-aos="zoom-in"
+      >
         <div className="flex flex-col items-start">
           <a href="/">
             <img src={footerLogo} alt="Logo" width={120} height={46} />
@@ -17,7 +20,13 @@ const Footer = () => {
           <div className="flex items-center gap-5 mt-8">
             {socialMedia.map((icon) => (
               <div className="flex justify-center items-center w-12 h-12 bg-white rounded-full">
-                <img src={icon.src} alt={icon.alt} width={24} height={24} />
+                <img
+                  src={icon.src}
+                  alt={icon.alt}
+                  width={24}
+                  height={24}
+                  className="transition-transform duration-300 hover:scale-110"
+                />
               </div>
             ))}
           </div>
@@ -49,7 +58,7 @@ const Footer = () => {
             alt="copyright"
             width={20}
             height={20}
-            className="rounded-full m-0"
+            className="rounded-full m-0 "
           />
           <p>Copyright. All rights reserved.</p>
         </div>

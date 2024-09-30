@@ -7,6 +7,8 @@ import { arrowRight } from "../assets/icons";
 import { statistics, shoes } from "../constants";
 import { bigShoe1 } from "../assets/images";
 
+import CountUp from "react-countup";
+
 const Hero = () => {
   const [bigShoeImage, setbigShoeImage] = useState(bigShoe1);
   return (
@@ -36,7 +38,13 @@ const Hero = () => {
         <div className="flex justify-start items-start flex-wrap w-full mt-20 gap-16">
           {statistics.map((stat) => (
             <div key={stat.label}>
-              <p className="text-4xl font-palanquin font-bold">{stat.value}</p>
+              <p className="text-4xl font-palanquin font-bold">
+                <CountUp
+                  end={parseInt(stat.value.replace(/[^\d]/g, ""), 10)}
+                  duration={2}
+                  suffix={stat.value.match(/[^\d]+/)?.[0] || ""}
+                />
+              </p>
               <p className="leading-7 font-montserrat text-slate-gray">
                 {stat.label}
               </p>
@@ -52,10 +60,11 @@ const Hero = () => {
           width={610}
           height={500}
           className="object-contain relative z-10"
+          data-aos="fade-left"
         />
         <div className="flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left-[10%] max-sm:px-6">
           {shoes.map((shoe, index) => (
-            <div key={shoe}>
+            <div key={shoe} data-aos="fade-up" data-aos-delay={index * 300}>
               <ShoeCard
                 imgURL={shoe}
                 changeBigShoeImage={(shoe) => {

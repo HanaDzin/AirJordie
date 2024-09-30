@@ -7,11 +7,17 @@ const Subscribe = () => {
       className="max-container flex justify-between items-center max-lg:flex-col gap-10"
       id="contact-us"
     >
-      <h3 className="text-4xl leading-[68px] lg:max-w-md font-palanquin font-bold">
+      <h3
+        className="text-4xl leading-[68px] lg:max-w-md font-palanquin font-bold"
+        data-aos="flip-left"
+      >
         Sign up for <span className="text-burgundy-red"> Updates</span> &
         Newsletter
       </h3>
-      <div className="l:max-w-[40%] w-full flex items-center max-sm:flex-col gap-5 p-2.5 sm:border sm:border-slate-gray rounded-full">
+      <div
+        className="l:max-w-[40%] w-full flex items-center max-sm:flex-col gap-5 p-2.5 sm:border sm:border-slate-gray rounded-full"
+        data-aos="fade-up"
+      >
         <input
           type="text"
           placeholder="subscribe@jordie.com"

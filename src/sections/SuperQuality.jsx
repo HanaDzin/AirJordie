@@ -9,7 +9,7 @@ const SuperQuality = () => {
       id="about-us"
       className="flex justify-between items-center max-lg:flex-col gap-10 w-full max-container"
     >
-      <div className="flex flex-1 flex-col">
+      <div className="flex flex-1 flex-col" data-aos="fade-right">
         <h2 className="font-palanquin text-4xl capitalize lg:max-w-lg font-bold">
           We provide you
           <br />
@@ -35,6 +35,7 @@ const SuperQuality = () => {
           width={570}
           height={522}
           className="object-contain "
+          data-aos="fade-left"
         />
       </div>
     </section>
