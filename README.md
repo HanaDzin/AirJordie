@@ -1,7 +1,7 @@
 # AirJordie 
 
-<img src="https://github.com/user-attachments/assets/c6c4e8da-1e5d-4e16-b402-db3d76b9e280" width="500px;">
-<img src="https://github.com/user-attachments/assets/b37f2bbe-8a4e-4c9a-9d62-bf8ec3dff277" width="500px;">
+<img src="https://github.com/user-attachments/assets/c6c4e8da-1e5d-4e16-b402-db3d76b9e280" width="600px;">
+
 
 ## About ℹ️
 **AirJordie** is a React-based landing page for an e-commerce business selling premium sneakers. The platform allows users to explore various shoe models, view business details and statistics while also staying up-to-date with the latest releases.
